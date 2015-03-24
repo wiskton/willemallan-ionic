@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.willemallan386889" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Willem Allan</name>
+  <description>
+      Blog do Willem Allan.
+    </description>
+  <author email="willemarf@gmail.com" href="http://willemallan.com.br">
+      Willem Allan
+  </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  <feature name="InAppBrowser">
+      <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+  </feature>
+  <platform name="android">
+    <icon src="icon/icon-32.png" width="32" height="32" />
+    <icon src="icon/icon-60.png" width="60" height="60" />
+    <icon src="icon/icon-90.png" width="90" height="90" />
+    <icon src="icon/icon-96.png" width="96" height="96" />
+    <icon src="icon/icon-120.png" width="120" height="120" />
+    <icon src="icon/icon-128.png" width="128" height="128" />
+    <icon src="icon/icon-256.png" width="256" height="256" />
+  </platform>
+  <platform name="firefoxos">
+    <icon src="icon/icon-32.png" width="32" height="32" />
+    <icon src="icon/icon-60.png" width="60" height="60" />
+    <icon src="icon/icon-90.png" width="90" height="90" />
+    <icon src="icon/icon-96.png" width="96" height="96" />
+    <icon src="icon/icon-120.png" width="120" height="120" />
+    <icon src="icon/icon-128.png" width="128" height="128" />
+    <icon src="icon/icon-256.png" width="256" height="256" />
+  </platform>
+  <platform name="ios">
+    <icon src="icon/icon-32.png" width="32" height="32" />
+    <icon src="icon/icon-60.png" width="60" height="60" />
+    <icon src="icon/icon-90.png" width="90" height="90" />
+    <icon src="icon/icon-96.png" width="96" height="96" />
+    <icon src="icon/icon-120.png" width="120" height="120" />
+    <icon src="icon/icon-128.png" width="128" height="128" />
+    <icon src="icon/icon-256.png" width="256" height="256" />
+  </platform>
+</widget>
